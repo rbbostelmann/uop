@@ -1,0 +1,222 @@
+body {
+    font-family: sans-serif;
+    font-size: 2vh;
+    font-weight: 400;
+}
+
+ol.tasks>li {
+    line-height: 5vh;
+}
+
+/* #region Exercise 1 */
+
+.first {
+    display: flex;
+    list-style: none;
+    column-gap: 1vh;
+    font-weight: bold;
+}
+
+.first>li:nth-child(1) {
+    color: red;
+}
+
+.first>li:nth-child(2) {
+    color: rgb(255, 141, 10);
+}
+
+.first>li:nth-child(3) {
+    color: brown;
+}
+
+.first>li:nth-child(4) {
+    color: rgb(0, 255, 17);
+}
+
+.first>li:nth-child(5) {
+    color: rgb(0, 255, 217);
+}
+
+.first>li:nth-child(6) {
+    color: rgb(0, 136, 255);
+}
+
+.first>li:nth-child(7) {
+    color: rgb(0, 26, 255);
+}
+
+.first>li:nth-child(8) {
+    color: rgb(255, 0, 217);
+}
+
+.first>li:nth-child(9) {
+    color: teal;
+}
+
+.first>li:nth-child(10) {
+    color: black;
+}
+
+/* #endregion */
+
+/* #region Exercise 2 */
+.second {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+
+/* #endregion */
+
+/* #region Exercise 3 */
+.lists {
+    display: flex;
+}
+
+.lists>ul>li,
+.lists>ol>li {
+    margin: 10px;
+}
+
+/* #endregion */
+
+/* #region Exercise 4 */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+}
+
+.left>p {
+    font-style: italic;
+    margin: 5px;
+
+}
+
+.center>p {
+    font-style: italic;
+    text-align: center;
+    margin: 5px;
+}
+
+/* #endregion */
+
+/* #region Exercise 5 */
+
+header {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+header>div {
+    float: right;
+    margin-right: 1vw;
+}
+
+footer {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+footer>div {
+    float: right;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+}
+
+/* #endregion */
+
+/* #region Exercise 6 */
+
+/*No CSS needed.*/
+
+/* #endregion */
+
+/* #region Exercise 7 */
+figure,
+#seventh>div {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 320px;
+    max-height: auto;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#seventh>div {
+    border: none;
+}
+
+img {
+    max-height: 200px;
+}
+
+/* #endregion */
+
+/* #region Exercise 8 */
+#eighth {
+    border: 2px black solid;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+#eighth>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* #endregion */
+
+/* #region Exercise 9 */
+.ninth {
+    border: none;
+}
+
+/* #endregion */
+
+/* #region Exercise 10 */
+.tenth {
+    border: none;
+}
+
+/* #endregion */
+
+/* #region Exercise 11 */
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+tr>#title {
+    border: none;
+    text-align: end;
+}
+
+.names {
+    text-align: left !important;
+}
+
+/* #endregion */
